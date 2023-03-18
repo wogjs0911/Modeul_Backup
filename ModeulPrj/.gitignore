@@ -15,9 +15,11 @@ local.properties
 .recommenders
 
 ### first not include this ignore ###
-.settings/
-.classpath
-.project
+application.properties
+.DS_Store
+# .settings/
+# .classpath
+# .project
 
 ### Project file ###
 CommonProperties.*
