@@ -9,12 +9,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="/css/reset.css" type="text/css" rel="stylesheet"></link>
-    <link href="/css/style.css" type="text/css" rel="stylesheet"></link>
-    <link href="/css/utils.css" type="text/css" rel="stylesheet"></link>
-    <link href="/css/button.css" type="text/css" rel="stylesheet"></link>
-    <link href="/css/component/component.css" type="text/css" rel="stylesheet"></link>
-    <link href="/css/component/component-sign-up.css" type="text/css" rel="stylesheet"></link>
+    <link href="./css/reset.css" type="text/css" rel="stylesheet"></link>
+    <link href="./css/style.css" type="text/css" rel="stylesheet"></link>
+    <link href="./css/utils.css" type="text/css" rel="stylesheet"></link>
+    <link href="./css/button.css" type="text/css" rel="stylesheet"></link>
+    <link href="./css/component/component.css" type="text/css" rel="stylesheet"></link>
+    <link href="./css/component/component-sign-up.css" type="text/css" rel="stylesheet"></link>
 
 </head>
 
