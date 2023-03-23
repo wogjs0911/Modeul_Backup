@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,9 +42,9 @@
     
                 <div class="category-select">
                     <ul class="select-box-list">
-                        <li><button class="select-box categ-eff">일반상품</button></li>
-                        <li><button class="select-box categ-eff">대형마트 대량 물품</button></li>
-                        <li><button class="select-box categ-eff">딜리버리 푸드</button></li>
+                        <li><button class="select-box categ-eff" name="merchandise">일반상품</button></li>
+                        <li><button class="select-box categ-eff" name="supermarket">대형마트 대량 물품</button></li>
+                        <li><button class="select-box categ-eff" name="delivery_food">딜리버리 푸드</button></li>
                     </ul>
                     <button class="btn-next m-t-button">다음</button>
                 </div>
@@ -96,10 +96,12 @@
                     </div>
 
                     <!-- 기존 카테고리 -->
-                    <select class="category-box" name="categ-box">
-                        <option class="" value="merchandise">일반상품</option>
-                        <option class="" value="supermarket">대형마트 대량 물품</option>
-                        <option class="" value="delivery-food">딜리버리 푸드</option>
+                    <select class="category-box" name="category_list">
+                    	
+                    	<!-- 타임리프 each 이용 --> 
+                        <option class="" value="merchandise" name="merchandise">일반상품</option>
+                        <option class="" value="supermarket" name="supermarket">대형마트 대량 물품</option>
+                        <option class="" value="delivery_food" name="delivery_food">딜리버리 푸드</option>
                     </select>
 
                     <!-- 가로 스크롤 수정하기 -->
@@ -117,7 +119,7 @@
                                 <input class="btn-minus" id="people-count"
                                     type="button" onclick='count("minus")' value="">
 
-                                <div class="people-count-num" id="result">1</div>
+                                <div class="people-count-num" name="num_people" id="result">2</div>
                                 
                                 <input class="btn-plus" id="people-count"
                                     type="button" onclick='count("plus")' value="">
@@ -215,12 +217,12 @@
                            
                     <div class="select-box">
                         <label for="place" class="input-field-txt">장소</label>
-                        <input type="text" class="input-field" id="place">
+                        <input type="text" class="input-field" name="place" id="place">
                     </div>
     
                     <div class="select-box">
                         <label for="url" class="input-field-txt">링크</label>
-                        <input type="text" class="input-field" id="url">
+                        <input type="text" class="input-field" name="url" id="url">
                     </div>
     
                     <div class="select-box select-content d-fl fl-dir-col">
