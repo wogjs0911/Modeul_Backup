@@ -113,20 +113,20 @@
                     </div>
                     
                     
-                    <!-- 인원수 조절 -->
+                    <!— 인원수 조절 —>
                     <div class="select-box2 d-fl">
-                        <!-- label 태그 for="people-count" 적으면 온클릭 오류 발생함. -->
+                        <!— label 태그 for="people-count" 적으면 온클릭 오류 발생함. —>
                         <label for="" class="input-field-txt">인원</label> 
                             <div class="people-count-box">
                                 <input class="btn-minus" id="people-count"
                                     type="button" onclick='count("minus")' value="">
-
-                                <div class="people-count-num" name="num_people" id="result">2</div>
+                                <input type="text" class="people-count-num" name="numPeople" id="result" value=2>
                                 
                                 <input class="btn-plus" id="people-count"
                                     type="button" onclick='count("plus")' value="">
                             </div>
                     </div>
+
                     <!-- 인원수 조절 JS -->
                     <!-- <script>
                         function count(type)  {
@@ -158,6 +158,12 @@
                             onChange={StartDateValueHandler}
                             ></input>
                     </div>
+
+                    <div class="select-box">
+                        <label for="price" class="input-field-txt">가격</label>
+                        <input type="text" class="input-field" name="price" id="price">
+                    </div>
+                    
                     <!-- required 속성: 해당 필드가 기재되었을 때만 submit 가능. -->
                     
                     
