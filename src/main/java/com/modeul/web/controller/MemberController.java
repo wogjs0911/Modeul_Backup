@@ -33,8 +33,7 @@ public class MemberController {
 			@RequestParam(name="password") String password,
 			@RequestParam(name="name") String name,
 			@RequestParam(name="email") String email,
-			@RequestParam(name="nickname") String nickname) 
-	{
+			@RequestParam(name="nickname") String nickname) {
 			// @RequestParam은 Entity(Member)가 필요 없어도 된다. 
 		
 		int createMember = service.addMember(uid, password, name, email, nickname);
@@ -44,8 +43,7 @@ public class MemberController {
 		System.out.printf("uid : %s, pw: %s, nickname: %s", uid, password, nickname);
 		
 		return "redirect:login";	
-		// redirect 개념 중요!!
-		// 이렇게 redirect하면 html form 태그의 action 속성은 필요 없다
+		// redirect 개념 중요!
 		// 서버에서 처리해주기 때문
 	}
 	
