@@ -30,10 +30,10 @@ class StuffServiceImplTest {
 	}
 	
 	
-//	@Test
-//	void testgetById() {
-//		Stuff list = service.getById(5L);
-//		System.out.println(list);
-//	}
+	@Test
+	void testgetById() {
+		Stuff list = service.getById(5L);
+		System.out.println(list);
+	}
 
 }

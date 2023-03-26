@@ -75,12 +75,9 @@
             
             <main>
 	            <div th:each="stuff: ${list}">
-	            <!-- a 태그로 변경? -->
-	                <!-- <a class="d-gr li-gr m-t-13px list-cl"
-	                onclick="location.href='detail'" 
-	                > -->
+	            <!-- a 태그로 변경!! -->
 	                <a class="d-gr li-gr m-t-13px list-cl"
-	                href="./detail.html"
+	                href="./detail.html" th:href="@{./detail(id=${stuff.id})}"
 	                >
 	                    <!-- 나중에 전체를 div로 묶어서 main으로 크게 묶기 -->
 	                    <div class="li-pic b-rad-1">사진</div>

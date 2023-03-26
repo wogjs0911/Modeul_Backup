@@ -35,9 +35,9 @@ class StuffRepositoryTest {
 		System.out.println(list);
 	}
 	
-//	@Test
-//	void testfindbyId() {
-//		Stuff stuff= repository.findbyId(8L);
-//		System.out.println(stuff);
-//	}
+	@Test
+	void testfindbyId() {
+		Stuff stuff= repository.findbyId(8L);
+		System.out.println(stuff);
+	}
 }

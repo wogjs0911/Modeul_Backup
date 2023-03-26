@@ -42,15 +42,22 @@ public class StuffController {
 		return "member/stuff/list";
 	}
 	
-//	@GetMapping("detail")
-//	public String detail(Long id, Model model) {
-//		
-//		Stuff stuff = service.getById(id);
-//		
-//		model.addAttribute("stuff", stuff);
-//		
-//		return "member/stuff/detail";
-//	}
+	@GetMapping("detail")
+	public String detail(Long id, Model model) {
+		
+		// Stuff 객체로 반환 타입을 걸어준 이유는 List는 값을 꺼내기 위해서 index가 필요하지만 
+		// id 값으로 그 해당 내용만 조회하는 용도에는 굳이 필요가 없다.
+		Stuff stuff = service.getById(id);
+		
+		// stuff.getCategoryId()가 null 값이라서 확인했더니 
+		// CategoryId 칼럼을 resultMap 설정 안했었서 설정 추가함.
+		String categoryName = categoryService.getNameById(stuff.getCategoryId());
+		
+		model.addAttribute("stuff", stuff);
+		model.addAttribute("categoryName", categoryName);
+		
+		return "member/stuff/detail";
+	}
 	
 	
 	@GetMapping("reg")

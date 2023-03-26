@@ -15,6 +15,6 @@ public interface StuffService {
 	List<StuffView> getViewAll(Integer categoryId, int page);	// 카테고리별 페이지 조회용
 	List<StuffView> getViewAll(String query, Integer categoryId, int page);	// 카테고리별 검색용 
 
-//	Stuff getById(Long id);
+	Stuff getById(Long id);
 
 }

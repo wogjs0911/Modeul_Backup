@@ -61,11 +61,11 @@ public class StuffServiceImpl implements StuffService {
 		return repository.insert(title, place, numPeople, price, url, content);
 	}
 
-//	@Override
-//	public Stuff getById(Long id) {
-//		
-//		return repository.findbyId(id);
-//	}
+	@Override
+	public Stuff getById(Long id) {
+		
+		return repository.findbyId(id);
+	}
 	
 	
 }
