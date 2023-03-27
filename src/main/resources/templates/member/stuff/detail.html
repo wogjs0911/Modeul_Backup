@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html 
+	xmlns=th="http://www.thymeleaf.org"
+>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -49,7 +51,7 @@
                     <div class="detail-category" th:text="${categoryName}">대형마트 대량 물품</div>
                     <p class="detail-heading-title" th:text="${stuff.title}">금요일에 같이 치킨 드실 분?</p>
                     <div class="d-fl">
-                        <div class="detail-price" th:text="${stuff.price}">22,000원</div>
+                        <div class="detail-price" th:text="${stuff.price} + 원">22,000원</div>
                         <div class="detail-status">모집중</div>
                         <div class="detail-heart" >찜</div>
                         <div class="icon-heart">하트</div>
@@ -59,9 +61,9 @@
                 <section class="canvas detail-info">
                     <h1 class="d-none">info</h1>
                     <div>•인원</div>
-                    <div th:text="${stuff.numPeople}">2 / 5</div>
+                    <div th:text="|1 / ${stuff.numPeople}|">2 / 5</div>
                     <div>•기한</div>
-                    <div th:text="${stuff.deadline}">2월 10일 13:00</div>
+                    <div th:text="${#temporals.format(stuff.deadline, 'M월 d일 HH:mm')}">2월 10일 13:00</div>
                     <div>•장소</div>
                     <div th:text="${stuff.place}">땡땡아파트 정문</div>
                 </section>

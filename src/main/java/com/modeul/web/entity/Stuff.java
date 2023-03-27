@@ -1,28 +1,30 @@
 package com.modeul.web.entity;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
-import groovy.transform.ToString;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class Stuff {
-	
+
+	// LocalDateTime으로 타입 변경!
 	private Long id;
 	private String title;
 	private String place;
-	private Date regDate;
+	private LocalDateTime regDate;
 	private String numPeople;
 	private String url;
-	private Date deadline;
+	
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
+	private LocalDateTime deadline;
 	private String price;
 	private String content;
 	private Long memberId;

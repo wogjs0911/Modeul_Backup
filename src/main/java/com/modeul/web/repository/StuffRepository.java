@@ -1,5 +1,6 @@
 package com.modeul.web.repository;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
@@ -29,6 +30,7 @@ public interface StuffRepository {
 	int insert(String title, 
 			String place, 
 			String numPeople, 
+			LocalDateTime deadline,
 			String price, 
 			String url, 
 			String content);

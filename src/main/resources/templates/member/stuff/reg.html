@@ -28,7 +28,7 @@
             <header class="d-fl">
                 
                 <div>
-                    <a href="./list.html" class="icon icon-back">뒤로가기</a>
+                    <a href="./list" class="icon icon-back">뒤로가기</a>
                 </div>
                 
                 <div class="hd-title-box">
@@ -94,7 +94,7 @@
                             <div class="btn-uploaded-files">파일업로드된 파일들2</div>
                         </label>
     
-                        <input type="file" class="d-none" id="file" name="file" multiple>
+                        <input type="file" class="d-none" id="file" name="imgs" multiple>
                     </div>
 
                     <!-- 기존 카테고리 -->
@@ -113,9 +113,9 @@
                     </div>
                     
                     
-                    <!— 인원수 조절 —>
+                    <!--  인원수 조절  -->
                     <div class="select-box2 d-fl">
-                        <!— label 태그 for="people-count" 적으면 온클릭 오류 발생함. —>
+                        <!-- label 태그 for="people-count" 적으면 온클릭 오류 발생함.  -->
                         <label for="" class="input-field-txt">인원</label> 
                             <div class="people-count-box">
                                 <input class="btn-minus" id="people-count"
@@ -153,6 +153,7 @@
                             data-placeholder="날짜를 선택해주세요."
                             required
                             aria-required="true" 
+                            name="deadline"
                             value={startDateValue}
                             className={styles.selectDay}
                             onChange={StartDateValueHandler}

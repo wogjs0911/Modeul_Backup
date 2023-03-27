@@ -46,9 +46,9 @@
                             </div>
                             <div class="side-menu">
                                 <div></div>
-                                <span class="sidebar-padding" onclick="location.href='list.html'">홈</span>
-                                <span class="sidebar-padding" onclick="location.href='list-search.html'">검색하기</span>
-                                <span class="sidebar-padding" onclick="location.href='reg.html'">글 등록하기</span>
+                                <span class="sidebar-padding" onclick="location.href='list'">홈</span>
+                                <span class="sidebar-padding" onclick="location.href='listsearch'">검색하기</span>
+                                <span class="sidebar-padding" onclick="location.href='reg'">글 등록하기</span>
                                 <span class="sidebar-padding" onclick="location.href='../participation/list.html'">채팅하기</span>
                             </div>
                         </div>
@@ -87,9 +87,9 @@
 	                        찬하트
 	                    </div>
 	                    <div class="li-subj" th:text="${stuff.title}">서강대 앞 교촌치킨 시켜드실 분</div>
-	                    <div class="li-member" th:text="${stuff.numPeople}">2/5</div>
-	                    <div class="li-date" th:text="${stuff.deadline}">2월 3일 금 18시까지</div>
-	                </a>
+	                    <div class="li-member" th:text="|1 / ${stuff.numPeople}|">2/5</div>
+	                    <div class="li-date" th:text="${#temporals.format(stuff.deadline, 'M월 d일 HH시까지')}">2월 3일 금 18시까지</div>
+	                </a>				
 	                <div>
 	                    <h1 class="icon icon-line">선 긋기</h1>
 	                </div>

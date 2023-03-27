@@ -1,5 +1,6 @@
 package com.modeul.web.service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -56,9 +57,9 @@ public class StuffServiceImpl implements StuffService {
 	
 	// 공구상품 글 등록용
 	@Override
-	public int regStuff(String title, String place, String numPeople, String price, String url,String content) {
+	public int regStuff(String title, String place, String numPeople, LocalDateTime deadline, String price, String url,String content) {
 		
-		return repository.insert(title, place, numPeople, price, url, content);
+		return repository.insert(title, place, numPeople, deadline, price, url, content);
 	}
 
 	@Override

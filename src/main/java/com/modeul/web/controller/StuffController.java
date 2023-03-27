@@ -1,5 +1,6 @@
 package com.modeul.web.controller;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,9 +29,9 @@ public class StuffController {
 
 	@GetMapping("list")
 	public String list(
-			@RequestParam(value="q", required=false) String query, 
-			@RequestParam(value="c", required=false) Integer categoryId, 
-			@RequestParam(value="p", defaultValue="1") int page, Model model) {
+			@RequestParam(name="q", required=false) String query, 
+			@RequestParam(name="c", required=false) Integer categoryId, 
+			@RequestParam(name="p", defaultValue="1") int page, Model model) {
 		
 		List<StuffView> list = service.getViewAll(query, categoryId, page);
 		
@@ -59,28 +60,46 @@ public class StuffController {
 		return "member/stuff/detail";
 	}
 	
+	@GetMapping("listsearch")
+	public String listsearch(
+			@RequestParam(name="q", required=false) String query, 
+			@RequestParam(name="c", required=false) Integer categoryId, 
+			@RequestParam(name="p", defaultValue="1") int page, Model model) {
+		
+		List<StuffView> list = service.getViewAll(query, categoryId, page);
+		
+		List<Category> categoryList = categoryService.getList();
+		
+		model.addAttribute("list", list);
+		model.addAttribute("categoryList", categoryList);
+		
+		return "member/stuff/list-search";
+	}
+	
 	
 	@GetMapping("reg")
 	public String stuffForm() {
 		return "member/stuff/reg";
 	}
 	
+	// deadline은 LocalDateTime의 타입으로 추가!!
 	@PostMapping("reg")
 	public String regStuff(
 			@RequestParam(name="title") String title,
 			@RequestParam(name="place") String place,
 			@RequestParam(name="numPeople") String numPeople,
+			@RequestParam(name="deadline") LocalDateTime deadline,
 			@RequestParam(name="price") String price,
 			@RequestParam(name="url") String url,
 			@RequestParam(name="content") String content) {
 		
 		
-		int insert = service.regStuff(title, place, numPeople, price, url, content);
+		int insert = service.regStuff(title, place, numPeople, deadline, price, url, content);
 		
 		System.out.println(insert);
 		
-		System.out.printf("title: %s, place: %s, numPeople :%s, price: %s, url: %s, content: %s\n",
-				title, place, numPeople, price, url, content);
+		System.out.printf("title: %s, place: %s, numPeople :%s, date: %s, price: %s, url: %s, content: %s\n",
+				title, place, numPeople, deadline, price, url, content);
 		
 		// redirect가 되기 위해서 html의 form 태그의 action, method 맞춰주기!
 		return "redirect:list";
