@@ -1,6 +1,7 @@
 package com.modeul.web.service;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
@@ -8,6 +9,7 @@ import org.mybatis.spring.boot.test.autoconfigure.AutoConfigureMybatis;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import com.modeul.web.entity.Image;
 import com.modeul.web.entity.Stuff;
 import com.modeul.web.entity.StuffView;
 
@@ -20,8 +22,45 @@ class StuffServiceImplTest {
 	
 	@Test
 	void testregStuff() {
-		int regCount = service.regStuff("아아 드실분~", "대흥역 앞", "4", LocalDateTime.now(), "3000", "https://map.naver.com/v5/search/%EB%8C%80%ED%9D%A5%EB%8F%99%20%EC%8A%A4%EB%B2%85/place/99828703?placePath=%3Fentry=pll%26from=nx%26fromNxList=true&c=15,0,0,0,dh","대흥역 앞에서 아아 같이 사드실분 구합니다~");
-		System.out.println(regCount);
+		
+		// 등록에는 무조건 Stuff 객체 사용하기!!
+		// Test 코드가 기가 막히게 어렵다..
+		
+		Stuff stuff = new Stuff();
+		
+		// 기본값 setting
+		stuff.setTitle("아아 드실분~");
+		stuff.setPlace("대흥역 앞");
+		stuff.setNumPeople("4");
+		stuff.setDeadline(LocalDateTime.now());
+		stuff.setPrice("30000");
+		stuff.setUrl("https://map.naver.com/v5/search/%EB%8C%80%ED%9D%A5%EB%8F%99%20%EC%8A%A4%EB%B2%85/place/99828703?placePath=%3Fentry=pll%26from=nx%26fromNxList=true&c=15,0,0,0,dh");
+		stuff.setContent("대흥역 앞에서 아아 같이 사드실분 구합니다~");
+		
+		// Image 리스트를 setting 하기 위해서 리스트 새로 생성하기!
+		List<Image> imageList = new ArrayList<Image>();
+		
+		// 가져온 리스트들을 1개씩 탐색하여 setter로 값 입력해주기
+		Image image1 = new Image();
+		Image image2 = new Image();
+		
+		image1.setStuffId(5L);
+		image1.setName("test image3");
+		image1.setPath(null);
+		
+		image2.setStuffId(5L);
+		image2.setName("test image4");
+		image2.setPath(null);
+		
+		imageList.add(image1);
+		imageList.add(image2);
+		
+		stuff.setImageList(imageList);
+		
+		service.regStuff(stuff);
+		// service.regStuff("아아 드실분~", "대흥역 앞", "4", LocalDateTime.now(), "3000", "https://map.naver.com/v5/search/%EB%8C%80%ED%9D%A5%EB%8F%99%20%EC%8A%A4%EB%B2%85/place/99828703?placePath=%3Fentry=pll%26from=nx%26fromNxList=true&c=15,0,0,0,dh","대흥역 앞에서 아아 같이 사드실분 구합니다~");
+		
+		System.out.println("등록된 stuffList : "+ stuff);
 	}
 	
 	//@Test
@@ -37,4 +76,5 @@ class StuffServiceImplTest {
 		System.out.println(list);
 	}
 
+	
 }

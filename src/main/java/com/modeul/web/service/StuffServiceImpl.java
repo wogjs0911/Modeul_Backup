@@ -1,11 +1,12 @@
 package com.modeul.web.service;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import com.modeul.web.entity.Image;
 import com.modeul.web.entity.Stuff;
 import com.modeul.web.entity.StuffView;
 import com.modeul.web.repository.StuffRepository;
@@ -56,10 +57,22 @@ public class StuffServiceImpl implements StuffService {
 	}
 	
 	// 공구상품 글 등록용
+	@Transactional
 	@Override
-	public int regStuff(String title, String place, String numPeople, LocalDateTime deadline, String price, String url,String content) {
+	public void regStuff(Stuff stuff) {
+
 		
-		return repository.insert(title, place, numPeople, deadline, price, url, content);
+		repository.insert(stuff);
+		
+		if(stuff.getImageList() == null || stuff.getImageList().size() <= 0) {
+			return;
+		}
+		
+		stuff.getImageList().forEach(image -> {
+			image.setStuffId(stuff.getId());
+			repository.imageUpload(image.getName(), image.getPath(), image.getStuffId());
+		});
+		
 	}
 
 	@Override

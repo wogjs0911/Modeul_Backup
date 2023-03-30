@@ -21,7 +21,7 @@
     <!-- detail : flex-container -->
     <div class="detail">
         <header>
-            <a class="icon icon-back" onclick="location.href='list.html'">뒤로가기</a>
+            <a class="icon icon-back" onclick="location.href='list'">뒤로가기</a>
         </header>
 
         <!-- detail - item1  -->
@@ -30,7 +30,7 @@
             <div class="detail-main">
                 <!-- detail-img : detail-main - item1 -->
                 <div class="detail-img">
-                    <img src="../../../../images/member/stuff/chick.jpg" alt="img">
+                    <img th:src="@{/images/member/stuff/{img}(img=${imageName})}" src="../../../../images/member/stuff/chick.jpg" alt="img">
                     
                     <!-- image : modal -->
                     <div class="detail-modal">

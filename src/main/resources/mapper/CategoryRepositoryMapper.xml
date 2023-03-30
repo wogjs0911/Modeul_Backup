@@ -11,7 +11,7 @@
   </select>
   
   <select id="findNameById" resultType="Category">
-  	select name
+  	select *
   	from category
   	where id=#{categoryId}
   </select>
