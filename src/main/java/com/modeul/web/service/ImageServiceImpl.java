@@ -14,18 +14,8 @@ public class ImageServiceImpl implements ImageService{
 	@Override
 	public String getNamebyId(Long stuffId) {
 		
-		return repository.findNameById(stuffId).getName();
-	}
-	
-	@Override
-	public String getPathbyId(Long stuffId) {
-		
-		return repository.findNameById(stuffId).getPath();
+		return repository.findById(stuffId).getName();
 	}
 
-//	@Override
-//	public int upload(String name) {
-//		return repository.upload(name);
-//	} 
 
 }

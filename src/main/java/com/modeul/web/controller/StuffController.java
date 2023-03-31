@@ -67,12 +67,11 @@ public class StuffController {
 		
 		// reg.html 파일 경로를 물리경로로 다시 수정할 것!
 		String imageName = imageService.getNamebyId(stuff.getId());
-		String imagePath = imageService.getPathbyId(stuff.getId());
-		
+	
 		model.addAttribute("stuff", stuff);
 		model.addAttribute("categoryName", categoryName);
 		model.addAttribute("imageName", imageName);
-		model.addAttribute("imagePath", imagePath);
+
 		
 		return "member/stuff/detail";
 	}
@@ -147,9 +146,9 @@ public class StuffController {
 			// 그 이미지를 DB에 저장하기!!** 
 			Image image = new Image();
 			image.setName(img.getOriginalFilename());
-			image.setPath(realPath);
+
 			
-			// getId 처리 망했는데?글을 등록해야지 id를 얻을 수 있다. 
+			// ArrayList에 add해서 Image 정보 넣기!
 			imageList.add(image);
 		}
 		

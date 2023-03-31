@@ -53,7 +53,7 @@ class StuffRepositoryTest {
 	//@Test
 	void testimageUpload() {
 		
-		int imageUpload = repository.imageUpload("test.png","/images/member/stuff/",5L);
+		int imageUpload = repository.imageUpload("test.png",5L);
 		System.out.println(imageUpload);
 	}
 	

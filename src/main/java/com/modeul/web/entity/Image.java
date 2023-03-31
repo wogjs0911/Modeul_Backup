@@ -12,6 +12,5 @@ import lombok.NoArgsConstructor;
 public class Image {
 	private Long id;
 	private String name;
-	private String path;
 	private Long stuffId;
 }

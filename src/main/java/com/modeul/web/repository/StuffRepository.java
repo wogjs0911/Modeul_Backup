@@ -37,7 +37,7 @@ public interface StuffRepository {
 	
 	int insert(Stuff stuff);
 	
-	int imageUpload(String name, String path, Long stuffId);
+	int imageUpload(String name, Long stuffId);
 
 	
 }

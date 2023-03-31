@@ -17,8 +17,8 @@ class ImageRepositoryTest {
 	
 	@Test
 	void testfindNameById() {
-		Image imageName = repository.findNameById(5L);
-		System.out.println(imageName);
+		Image image = repository.findById(5L);
+		System.out.println(image);
 	}
 
 }

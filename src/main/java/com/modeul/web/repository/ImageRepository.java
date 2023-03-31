@@ -6,8 +6,7 @@ import com.modeul.web.entity.Image;
 
 @Mapper
 public interface ImageRepository {
-	// int upload(String name);
 	
 	// 데이터를 가져오는 것이라서 Image로 받기!!
-	Image findNameById(Long stuffId);	
+	Image findById(Long stuffId);	
 }

@@ -70,7 +70,7 @@ public class StuffServiceImpl implements StuffService {
 		
 		stuff.getImageList().forEach(image -> {
 			image.setStuffId(stuff.getId());
-			repository.imageUpload(image.getName(), image.getPath(), image.getStuffId());
+			repository.imageUpload(image.getName(), image.getStuffId());
 		});
 		
 	}

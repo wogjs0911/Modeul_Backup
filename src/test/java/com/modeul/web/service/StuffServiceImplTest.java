@@ -46,11 +46,9 @@ class StuffServiceImplTest {
 		
 		image1.setStuffId(5L);
 		image1.setName("test image3");
-		image1.setPath(null);
 		
 		image2.setStuffId(5L);
 		image2.setName("test image4");
-		image2.setPath(null);
 		
 		imageList.add(image1);
 		imageList.add(image2);

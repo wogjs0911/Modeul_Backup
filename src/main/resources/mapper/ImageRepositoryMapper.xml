@@ -5,7 +5,7 @@
   
 <mapper namespace="com.modeul.web.repository.ImageRepository">
     
-  <select id="findNameById" resultType="Image">
+  <select id="findById" resultType="Image">
   	select *
   	from image
   	where stuff_id=#{stuffId}
