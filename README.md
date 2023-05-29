@@ -4,22 +4,36 @@
 <br>
 
 ## 1. 제작 기간 & 참여 인원
-- 2023년 03월 02일 ~ 05월 25일
 - 팀 프로젝트
+- 2023.02.06 ~ 2023.05.24(3개월)
+- 9명(재헌, 선균, 민경, 성민, 충렬, 대현, 지은, 지혜, 석현)
 
 <br>
 
 ## 2. 사용 기술
 #### `Back-end`
-  - Java 17
-  - Spring Boot 3.0
-  - Maven
-  - Mybatis
-  - MariaDB
-  - Spring Security
+  - Java(JDK 17)
+  - Spring Boot 3.0.4
+  - Mybatis 3.0.1
 
 #### `Front-end`
-  - Vue.js 3.0
+  - Vue.js 3.2.47
+  - Vite 4.1.4
+  - JavaScript
+  - HTML5
+  - CSS3
+
+#### `Build Tool`
+  - Maven 3.9.0
+
+#### `DataBase`
+  - MariaDB 10.6.12
+
+#### `IDE & Collaboration`
+  - VSCode, EClipse
+  - MySQL Workbench
+  - Git, GitHub
+  - Postman, Notion, Google Drive, Figma, Discord
 
 <br>
 
