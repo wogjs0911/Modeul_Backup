@@ -1,7 +1,4 @@
 # :pushpin: Modeul
->모들 - 지역기반 공동구매 커뮤니티 프로젝트
-
-<br>
 > ![java](https://img.shields.io/badge/Java-17-DEB887?style=flat)
 > <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=SpringBoot&logoColor=white"/>
 > <img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=flat&logo=SpringSecurity&logoColor=white"/>
