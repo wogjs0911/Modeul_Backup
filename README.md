@@ -2,7 +2,6 @@
 > ![java](https://img.shields.io/badge/Java-17-DEB887?style=flat)
 > <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=SpringBoot&logoColor=white"/>
 > <img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=flat&logo=SpringSecurity&logoColor=white"/>
-> <img src="https://img.shields.io/badge/springboot-6DB33F?style=flat-square&logo=springboot&logoColor=white">
 > <img src="https://img.shields.io/badge/mariaDB-003545?style=flat-square&logo=mariaDB&logoColor=white"> 
 > <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
 > <img src="https://img.shields.io/badge/vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white">
@@ -16,17 +15,23 @@
 > <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white">
 > <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white">
 > ![Notion](https://img.shields.io/badge/Notion-606060.svg?style=flat&logo=notion&logoColor=white)    
+>
 > 
+
 <br>
 
-## 1. 제작 기간 & 참여 인원
+## 1. 프로젝트 소개
+
+<br>
+
+## 2. 제작 기간 & 참여 인원
 - 팀 프로젝트
 - 2023.02.06 ~ 2023.05.24(3개월)
 - 9명(재헌, 선균, 민경, 성민, 충렬, 대현, 지은, 지혜, 석현)
 
 <br>
 
-## 2. 사용 기술
+## 3. 사용 기술
 #### `Back-end`
   - Java(JDK 17)
   - Spring Boot 3.0.4
@@ -53,12 +58,12 @@
 
 <br>
 
-## 3. ERD 설계
+## 4. ERD 설계
 
 
 <br>
 
-## 4. 핵심 기능
+## 5. 핵심 기능
 공동구매 서비스는 사용자가 게시글을 작성하여 다른 사용자와 함께 [공동구매, 배달, 대형마트]를 공유할 수 있는 서비스입니다.
 서비스를 이용하기 위해서는 로그인이 필수이며, 로그인 없이 회원가입, 로그인 서비스에 한해서만 이용할 수 있습니다.
 
@@ -69,24 +74,24 @@
   
 <br>
   
-### 4.1. 전체 흐름
+### 5.1. 전체 흐름
 
 <br>
 
-### 4.2. 사용자 요청
+### 5.2. 사용자 요청
 
 <br>
 
-### 4.3. Controller
+### 5.3. Controller
 
 <br>
 
-### 4.4. Service
+### 5.4. Service
 
 
 <br>
 
-### 4.5. Repository
+### 5.5. Repository
 
 
 
@@ -95,11 +100,11 @@
 
 <br><br>
 
-## 5. 핵심 트러블 슈팅
+## 6. 핵심 트러블 슈팅
 
 <br>
 
-### 5.1. 채팅방 내부의 채팅 메시지를 어떻게 저장해서 채팅방에 다시 불러올 것인가?
+### 6.1. 채팅방 내부의 채팅 메시지를 어떻게 저장해서 채팅방에 다시 불러올 것인가?
 
 <br>
 
@@ -130,7 +135,7 @@
 
 <br><br>
 
-### 5.2. 정산 내역을 DB에 저장하기 위해 @RequestBody를 여러 개 사용할 수 없다는 에러가 발생
+### 6.2. 정산 내역을 DB에 저장하기 위해 @RequestBody를 여러 개 사용할 수 없다는 에러가 발생
 
 <br>
 
@@ -164,12 +169,6 @@
 
 <br><br>
 
-## 6. 그 외 트러블 슈팅
-
-<details>
-  
-<br>
-
-## 6. 회고 / 느낀점
+## 7. 회고 / 느낀점
 
 >프로젝트 개발 회고 글:
