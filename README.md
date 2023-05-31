@@ -2,17 +2,17 @@
 > ![java](https://img.shields.io/badge/Java-17-DEB887?style=flat)
 > <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=SpringBoot&logoColor=white"/>
 > <img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=flat&logo=SpringSecurity&logoColor=white"/>
-> <img src="https://img.shields.io/badge/mariaDB-003545?style=flat-square&logo=mariaDB&logoColor=white"> 
+> <img src="https://img.shields.io/badge/mariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white"> 
 > <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
-> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white">
-> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-> <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> 
-> <img src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css3&logoColor=white">  
+> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white">
+> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black">
+> <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=HTML5&logoColor=white"> 
+> <img src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=CSS3&logoColor=white">  
 > <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=Vite&logoColor=white">
-> <img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white">
-> <img src="https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white">
+> <img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=GitHub&logoColor=white">
+> <img src="https://img.shields.io/badge/git-F05032?style=flat-square&logo=Git&logoColor=white">
 > <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white">
-> <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white">
+> <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=white">
 > <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white">
 > ![Notion](https://img.shields.io/badge/Notion-606060.svg?style=flat&logo=notion&logoColor=white)    
 >
@@ -21,6 +21,8 @@
 <br>
 
 ## 1. 프로젝트 소개
+
+- 지역 주민들이 함께 상품을 구매하여 대량으로 판매하는 물품을 소분함으로써, 1인 가구들을 비롯한 사람들에게 도움을 주고 배달비의 부담으로 인해 혼자서 배달음식을 시키기 어려운 경우에도 함께 시켜 배달비를 나눌 수 있는 협력적인 해결책을 제공하고자 합니다.
 
 <br>
 
