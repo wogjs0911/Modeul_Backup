@@ -27,6 +27,7 @@
 <br>
 
 ## 2. 제작 기간 & 참여 인원
+
 - 팀 프로젝트
 - 2023.02.06 ~ 2023.05.24(3개월)
 - 9명(재헌, 선균, 민경, 성민, 충렬, 대현, 지은, 지혜, 석현)
@@ -34,6 +35,7 @@
 <br>
 
 ## 3. 사용 기술
+
 #### `Back-end`
   - Java(JDK 17)
   - Spring Boot 3.0.4
@@ -62,14 +64,13 @@
 
 ## 4. ERD 설계
 
-<br>
-
 <img width="110%" src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/e793326d-4abe-40d9-a06d-22cbdf9b29f2"/>
 
 <br>
 
 ## 5. 핵심 기능
-공동구매 서비스는 사용자가 게시글을 작성하여 다른 사용자와 함께 [공동구매, 배달, 대형마트]를 공유할 수 있는 서비스입니다.
+
+- 공동구매 서비스는 사용자가 게시글을 작성하여 다른 사용자와 함께 [공동구매, 배달, 대형마트]를 공유할 수 있는 서비스입니다.
 서비스를 이용하기 위해서는 로그인이 필수이며, 로그인 없이 회원가입, 로그인 서비스에 한해서만 이용할 수 있습니다.
 
 <details>
@@ -174,6 +175,14 @@
 
 <br><br>
 
-## 7. 회고 / 느낀점
+## 7. 개발 후기
 
->프로젝트 개발 회고 글:
+>프로젝트 개발 회고 및 후기:
+
+|                                [재헌](https://github.com/wogjs0911)                                |                                                              [민경](https://github.com/minkyungkimm)                                                                      |                               [지혜](https://github.com/icedpodo)                               |                              [선균](https://github.com/ksg0000)                               |                                 [대현](https://github.com/	dh-song)                                 |                                 [충렬](https://github.com/SONCHUNG)                                  |                              [석현](https://github.com/	Mistercandoit)                               |                              [성민](https://github.com/psm901)                               |                              [지은](https://github.com/hanjieun94)                               |
+| :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
+:--------------------------------------------------------------------------------------------------: |
+:--------------------------------------------------------------------------------------------------: |
+:--------------------------------------------------------------------------------------------------: |
+| <img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/57828f80-b031-45b1-943e-c06bc7dedb1c" alt="Avatar" style="width:300px;" /> | <img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/a8298fdf-1cf1-4f98-801a-e4e77f8af974" alt="Avatar" style="width:300px;" /> |<img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/48277488-d713-4af9-93be-ce0989d7861b" alt="Avatar" style="width:300px;" /> | <img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/00ff126b-e785-4f60-92e1-9f0c11c13741" alt="Avatar" style="width:300px;" /> | <img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/fbfaed1e-570d-4ccd-97ef-28e4a5e78099" alt="Avatar" style="width:300px;" /> | <img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/b94f4033-84d6-4abd-b9d4-a067cbca274a" alt="Avatar" style="width:300px;" /> | <img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/b7b5525d-11fe-456c-a312-3d6e2f36a7b4" alt="Avatar" style="width:300px;" /> | <img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/54c990f8-9299-4659-8633-d41cc60b5b45" alt="Avatar" style="width:300px;" /> | <img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/b8e27ccd-10e2-45d3-a0db-d3f7b425bf08" alt="Avatar" style="width:300px;" /> | <img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/3ef27e99-a92b-40fd-9c0e-8e8a37b7ae49" alt="Avatar" style="width:300px;" /> |
+|                                              프론트엔드                                              |                                              프론트엔드                                              |                                                백엔드                                                |                                                백엔드                                                |                                                백엔드                                                |                                                백엔드                                                |                                                백엔드                                                |
