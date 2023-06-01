@@ -62,6 +62,9 @@
 
 ## 4. ERD 설계
 
+<br>
+
+<img width="80%" src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/e793326d-4abe-40d9-a06d-22cbdf9b29f2"/>
 
 <br>
 
