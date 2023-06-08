@@ -76,9 +76,9 @@
 
 |구글로그인|전체 상품 글 목록|
 |:---:|:---:|
-| ![image](https://github.com/Modeul/Final_Modeul/assets/37978853/22658555-5503-4b4d-93c6-3d3155c0e879") | 
-![image](https://github.com/Modeul/Final_Modeul/assets/37978853/6bbc4add-dd8c-408f-8110-ecc7ea2cfa47") |
-
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/22658555-5503-4b4d-93c6-3d3155c0e879"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/6bbc4add-dd8c-408f-8110-ecc7ea2cfa47" /> |
+<!-- | ![image](https://github.com/Modeul/Final_Modeul/assets/37978853/22658555-5503-4b4d-93c6-3d3155c0e879") | 
+ ![image](https://github.com/Modeul/Final_Modeul/assets/37978853/6bbc4add-dd8c-408f-8110-ecc7ea2cfa47") | -->
 
 <!-- <details>
 <summary><b>핵심 기능 설명 펼치기</b></summary>
