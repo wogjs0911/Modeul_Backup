@@ -76,7 +76,7 @@
 
 |구글로그인|전체 상품 글 목록|
 |:---:|:---:|
-| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/22658555-5503-4b4d-93c6-3d3155c0e879" width="80%" height="80%"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/86ee6dcb-e9f8-42d5-b462-551d388da950" width="100%" height="100%"/> |
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/22658555-5503-4b4d-93c6-3d3155c0e879" width="80%" height="80%"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/86ee6dcb-e9f8-42d5-b462-551d388da950" width="120%" height="120%"/> |
 
 
 <!-- <details>
