@@ -73,7 +73,13 @@
 - 공동구매 서비스는 사용자가 게시글을 작성하여 다른 사용자와 함께 [공동구매, 배달, 대형마트]를 공유할 수 있는 서비스입니다.
 서비스를 이용하기 위해서는 로그인이 필수이며, 로그인 없이 회원가입, 로그인 서비스에 한해서만 이용할 수 있습니다.
 
-<details>
+
+|구글로그인|전체 상품 글 목록|
+|:---:|:---:|
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/22658555-5503-4b4d-93c6-3d3155c0e879" width="60%" height="60%"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/bce60b8b-b86a-492e-a00a-934d4c47ab59" width="400%" height="400%"/> |
+
+
+<!-- <details>
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 </details>
@@ -97,7 +103,7 @@
 
 <br>
 
-### 5.5. Repository
+### 5.5. Repository -->
 
 
 
