@@ -74,17 +74,43 @@
 서비스를 이용하기 위해서는 로그인이 필수이며, 로그인 없이 회원가입, 로그인 서비스에 한해서만 이용할 수 있습니다.
 
 
-|구글로그인|전체 상품 글 목록|
+|공구상품 전체 목록 조회|반응형 : 전체 상품 목록|
 |:---:|:---:|
-| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/22658555-5503-4b4d-93c6-3d3155c0e879"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/6bbc4add-dd8c-408f-8110-ecc7ea2cfa47" /> |
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/54afc6d9-10eb-4e44-9930-3959727cdf32"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/d0b4bd3e-08a9-41c5-8a78-05572ca88315" /> |
 <!-- | ![image](https://github.com/Modeul/Final_Modeul/assets/37978853/22658555-5503-4b4d-93c6-3d3155c0e879") | 
  ![image](https://github.com/Modeul/Final_Modeul/assets/37978853/6bbc4add-dd8c-408f-8110-ecc7ea2cfa47") | -->
 
 <br>
 
-|전체 상품 글 목록|
+|공구상품 상세페이지|반응형 : 상세페이지|
+|:---:|:---:|
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/33a81804-bb6d-4cec-94aa-dc3860b2d47b"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/9fb26fe9-9ef0-4c0a-8b93-cfeb219b9577" /> |
+
+<br>
+
+|추천 공구상품 페이지|공구상품 게시글 등록 페이지|
+|:---:|:---:|
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/927d6ca6-323a-45dc-9b52-0c83f91724af"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/2d245b61-a009-4a2d-92ca-4e62bb1166ea" /> |
+
+
+<br>
+
+|채팅 시스템|정산 시스템|권한과 진행 상태에 따른 채팅방 참여|
+|:---:|:---:|:---:|
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/4ba9d1d9-0ecf-40dd-8bfb-c4668a9b2a52"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/a2273800-e950-456b-9fa0-71a0c581d5c9" /> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/f29fcafa-1c9f-415b-981c-7b18cbb06d09" /> |
+
+<br>
+
+|관심 목록 페이지|회원 정보 페이지(마이페이지)|
+|:---:|:---:|
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/407035f0-4a19-4169-a9f6-1836ceb4117f"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/703b784d-1734-4c60-b2b0-e48dd72ceeab" /> |
+
+<br>
+
+|신고 페이지 및 관리자 페이지|
 |:---:|
-| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/6bbc4add-dd8c-408f-8110-ecc7ea2cfa47" /> |
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/3bdbb436-eeb3-49ec-b53f-9b287f773192"/> |
+
 
 <!-- <details>
 <summary><b>핵심 기능 설명 펼치기</b></summary>
