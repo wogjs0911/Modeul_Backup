@@ -2,17 +2,17 @@
 > ![java](https://img.shields.io/badge/Java-17-DEB887?style=flat)
 > <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=SpringBoot&logoColor=white"/>
 > <img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=flat&logo=SpringSecurity&logoColor=white"/>
-> <img src="https://img.shields.io/badge/mariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white"> 
+> <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white"> 
 > <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
-> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white">
-> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black">
-> <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=HTML5&logoColor=white"> 
-> <img src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=CSS3&logoColor=white">  
+> <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white">
+> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black">
+> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"> 
+> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white">  
 > <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=Vite&logoColor=white">
-> <img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=GitHub&logoColor=white">
-> <img src="https://img.shields.io/badge/git-F05032?style=flat-square&logo=Git&logoColor=white">
+> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white">
+> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white">
 > <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white">
-> <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=white">
+> <img src="https://img.shields.io/badge/VisualStudioCode-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=white">
 > <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white">
 > ![Notion](https://img.shields.io/badge/Notion-606060.svg?style=flat&logo=notion&logoColor=white)    
 >
@@ -75,37 +75,37 @@
 
 <br>
 
-### 5.1. 공구상품 전체 목록 페이지 및 반응형 페이지
+### 5.1. 공구상품 글 전체 목록 페이지 및 반응형 페이지
 
-- 모바일과 pc 화면으로 반응형 웹페이지를 구현하고 카테고리를 선택해서 공구상품 목록을 확인하며 간편하게 검색도 가능합니다.
+- 모바일 화면과 PC 화면으로 반응형 웹페이지를 구현하고 카테고리를 선택해서 공구상품 목록을 확인하며 간편하게 검색도 가능합니다.
 
 - GPS 버튼을 선택하여 우리 동네 글을 필터링해서 지역별 공구상품 목록도 확인할 수 있습니다.
 
-|공구상품 전체 목록 페이지|반응형 : 전체 공구상품 목록 페이지|
+|공구상품 글 전체 목록 페이지|반응형 : 공구상품 글 전체 목록 페이지|
 |:---:|:---:|
 | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/54afc6d9-10eb-4e44-9930-3959727cdf32"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/d0b4bd3e-08a9-41c5-8a78-05572ca88315" /> |
 
 <br>
 
-### 5.2. 공구상품 상세페이지 및 반응형 페이지
+### 5.2. 공구상품 글 상세 페이지 및 반응형 페이지
 
-- 모바일과 pc 화면으로 반응형 웹페이지를 구현하고 인증된 사용자의 권한에 따라 해당 게시글의 수정/삭제 혹은 신고가 가능합니다.
+- 모바일 화면과 데스크탑 화면으로 반응형 웹페이지를 구현하고 인증된 사용자의 권한에 따라 해당 게시글의 수정/삭제 혹은 신고가 가능합니다.
 
 - 이미지가 여러 장 일 경우 넘기면서 확인이 가능하고 글쓴이가 등록한 위치가 지도로 확인 가능합니다. 또한, 관심있는 목록에 추가하고 채팅이 가능한 채팅방에 참여가 가능합니다.
 
-|공구상품 상세페이지|반응형 : 상세페이지|
+|공구상품 글 상세 페이지|반응형 : 공구상품 글 상세 페이지|
 |:---:|:---:|
 | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/33a81804-bb6d-4cec-94aa-dc3860b2d47b " width="80%" heigth="80%"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/9fb26fe9-9ef0-4c0a-8b93-cfeb219b9577" width="120%" heigth="120%"/> |
 
 <br>
 
-### 5.3. 추천 공구상품 페이지 및 공구상품 게시글 등록 페이지
+### 5.3. 추천 공구상품 페이지 및 공구상품 글 등록 페이지
 
 - 대형 온라인 쇼핑몰의 상품 데이터를 수집하여 추천 목록을 구현하였고 작성하기 버튼을 통해 해당 데이터를 기반으로 게시글 작성이 가능합니다.
 
 - 또한, 추천 상품이 아닌 일반 상품에 대해서도 공동구매 상품 게시글 등록을 통해 공동구매 인원 모집 서비스 이용이 가능합니다.
 
-|추천 공구상품 페이지|공구상품 게시글 등록 페이지|
+|추천 공구상품 페이지|공구상품 글 등록 페이지|
 |:---:|:---:|
 | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/927d6ca6-323a-45dc-9b52-0c83f91724af"  width="500%" heigth="500%"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/2d245b61-a009-4a2d-92ca-4e62bb1166ea" width="80%" heigth="80%"/> |
 
@@ -124,52 +124,24 @@
 
 <br>
 
-### 5.5. 관심 목록 시스템, 마이페이지, 신고 페이지 및 관리자 페이지
+### 5.5. 관심 목록 시스템, 마이페이지
 
 - 물품 상세 페이지에서 즐겨찾기 표시를 하면 관심 목록에서 확인이 가능하고 관심 페이지에서도 등록/삭제가 가능합니다.
 
 - 본인이 작성한 글 목록, 참여한 공동구매 목록, 관심목록, 정산 목록 조회가 가능하며 프로필사진, 닉네임, 비밀번호, 주소 변경, 로그아웃, 회원 탈퇴가 가능합니다.
 
+|관심 목록 시스템|마이페이지|
+|:---:|:---:|
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/407035f0-4a19-4169-a9f6-1836ceb4117f"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/703b784d-1734-4c60-b2b0-e48dd72ceeab" /> |
+<br>
+
+### 5.6. 신고 페이지 및 관리자 페이지
+
 - 사용자는 부적절한 게시글에 관하여 신고를 할 수 있으며, 관리자 권한을 가진 사용자는 관리자 페이지에 접근하여 Modeul의 회원관리, 게시글 관리, 카테고리 관리, 신고 관리 기능을 사용할 수 있습니다.
-
-|관심 목록 시스템|마이페이지|신고 페이지 및 관리자 페이지|
-|:---:|:---:|:---:|
-| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/407035f0-4a19-4169-a9f6-1836ceb4117f"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/703b784d-1734-4c60-b2b0-e48dd72ceeab" /> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/3bdbb436-eeb3-49ec-b53f-9b287f773192"/> |
-
-
-<!-- <br>
 
 |신고 페이지 및 관리자 페이지|
 |:---:|
-| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/3bdbb436-eeb3-49ec-b53f-9b287f773192"/> | -->
-
-
-<!-- <details>
-<summary><b>핵심 기능 설명 펼치기</b></summary>
-<div markdown="1">
-</details>
-  
-<br>
-  
-### 5.1. 전체 흐름
-
-<br>
-
-### 5.2. 사용자 요청
-
-<br>
-
-### 5.3. Controller
-
-<br>
-
-### 5.4. Service
-
-
-<br>
-
-### 5.5. Repository -->
-
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/3bdbb436-eeb3-49ec-b53f-9b287f773192" width="80%" height="80%"/> |
 
 
 ---
@@ -258,11 +230,3 @@
 |[충렬](https://github.com/SONCHUNG)|[석현](https://github.com/Mistercandoit)|[성민](https://github.com/psm901)|[지은](https://github.com/hanjieun94)|
 | <img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/b7b5525d-11fe-456c-a312-3d6e2f36a7b4" width="80%" height="80%" /> | <img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/54c990f8-9299-4659-8633-d41cc60b5b45" width="100%" height="100%"/> | <img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/b8e27ccd-10e2-45d3-a0db-d3f7b425bf08" width="100%" height="100%"/> | <img src="https://github.com/wogjs0911/Modeul_Backup/assets/37978853/3ef27e99-a92b-40fd-9c0e-8e8a37b7ae49" width="100%" height="100%" /> |
 |노는게 제일 좋아~|모두 고생많았습니다!<br>체력 길러서 코딩 gogo|디버깅…<br>드디어 끝났다..|행ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ복ㅋㅋㅋㅋㅋㅋㅋㅋㅋ|
-
-
-
-<!-- |                                [재헌](https://github.com/wogjs0911)                                |                                                              [민경](https://github.com/minkyungkimm)                                                                      |                               [지혜](https://github.com/icedpodo)                               |                              [선균](https://github.com/ksg0000)                               |                                 [대현](https://github.com/dh-song)                                 |                                 [충렬](https://github.com/SONCHUNG)                                  |                              [석현](https://github.com/Mistercandoit)                               |                              [성민](https://github.com/psm901)                               |                              [지은](https://github.com/hanjieun94)                               |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|![재헌](https://github.com/wogjs0911/Modeul_Backup/assets/37978853/57828f80-b031-45b1-943e-c06bc7dedb1c)|![민경1](https://github.com/wogjs0911/Modeul_Backup/assets/37978853/a8298fdf-1cf1-4f98-801a-e4e77f8af974) ![민경2](https://github.com/wogjs0911/Modeul_Backup/assets/37978853/48277488-d713-4af9-93be-ce0989d7861b)|![지혜](https://github.com/wogjs0911/Modeul_Backup/assets/37978853/00ff126b-e785-4f60-92e1-9f0c11c13741)|![선균](https://github.com/wogjs0911/Modeul_Backup/assets/37978853/fbfaed1e-570d-4ccd-97ef-28e4a5e78099)|![대현](https://github.com/wogjs0911/Modeul_Backup/assets/37978853/b94f4033-84d6-4abd-b9d4-a067cbca274a)|![충렬](https://github.com/wogjs0911/Modeul_Backup/assets/37978853/b7b5525d-11fe-456c-a312-3d6e2f36a7b4)|![석현](https://github.com/wogjs0911/Modeul_Backup/assets/37978853/54c990f8-9299-4659-8633-d41cc60b5b45)|![성민](https://github.com/wogjs0911/Modeul_Backup/assets/37978853/b8e27ccd-10e2-45d3-a0db-d3f7b425bf08)|![지은](https://github.com/wogjs0911/Modeul_Backup/assets/37978853/3ef27e99-a92b-40fd-9c0e-8e8a37b7ae49)||
-|...| |힝입니다..|거북이 진화 완.|불완전한 코드의 오류는 즐거웠고, 함께해 준 팀원들에게 감사합니다.|노는게 제일 좋아~|모두 고생많았습니다! 체력 길러서 코딩 gogo|디버깅…<br>드디어 끝났다..|행ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ복ㅋㅋㅋㅋㅋㅋㅋㅋㅋ| -->
-
