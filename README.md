@@ -84,7 +84,7 @@
 
 |공구상품 상세페이지|반응형 : 상세페이지|
 |:---:|:---:|
-| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/33a81804-bb6d-4cec-94aa-dc3860b2d47b"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/9fb26fe9-9ef0-4c0a-8b93-cfeb219b9577" /> |
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/33a81804-bb6d-4cec-94aa-dc3860b2d47b " width="80%" heigth="80%"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/9fb26fe9-9ef0-4c0a-8b93-cfeb219b9577" width="120%" heigth="120%"/> |
 
 <br>
 
