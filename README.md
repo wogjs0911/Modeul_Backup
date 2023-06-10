@@ -117,7 +117,7 @@
 
 |추천 공구상품 페이지|공구상품 글 등록 페이지|
 |:---:|:---:|
-| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/927d6ca6-323a-45dc-9b52-0c83f91724af"  width="500%" heigth="500%"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/2d245b61-a009-4a2d-92ca-4e62bb1166ea" width="80%" heigth="80%"/> |
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/3196fd39-e294-44c1-9faf-e02e27274ce4"  width="500%" heigth="500%"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/2d245b61-a009-4a2d-92ca-4e62bb1166ea" width="80%" heigth="80%"/> |
 
 
 <br>
