@@ -142,7 +142,7 @@
 
 |관심 목록 시스템|마이페이지|
 |:---:|:---:|
-| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/407035f0-4a19-4169-a9f6-1836ceb4117f" width="80%" heigth="80%"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/09af7146-57e5-4043-b809-4c7f46dac129" width="100%" heigth="100%"/> |
+| <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/407035f0-4a19-4169-a9f6-1836ceb4117f" width="80%" heigth="80%"/> | <img src="https://github.com/Modeul/Final_Modeul/assets/37978853/09af7146-57e5-4043-b809-4c7f46dac129" width="120%" heigth="120%"/> |
 
 <br>
 
